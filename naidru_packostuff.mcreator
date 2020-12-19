@@ -1751,6 +1751,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "AbyssPlains",
+      "type": "biome",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abyss_plains"
+    },
+    {
+      "name": "GrannySmithApple",
+      "type": "food",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "granny_smith_apple"
+    },
+    {
+      "name": "SoulEater",
+      "type": "mob",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_eater"
     }
   ],
   "variable_elements": [],
@@ -1787,6 +1814,7 @@
       "item.naidru_packostuff.birch_armorboots": "Birch Boots",
       "item.naidru_packostuff.topaz_armorbody": "Topaz Chestplate",
       "item.naidru_packostuff.dark_oak_armorlegs": "Dark Oak Leggings",
+      "item.naidru_packostuff.soul_eater": "Soul Eater Spawn Egg",
       "item.naidru_packostuff.oak_armorhelmet": "Oak Helmet",
       "item.naidru_packostuff.saphire_sword": "Saphire Sword",
       "item.naidru_packostuff.oak_armorboots": "Oak Boots",
@@ -1851,6 +1879,8 @@
       "item.naidru_packostuff.topaz_sword": "Topaz Sword",
       "itemGroup.tabc_tab_tools": "NPOS - Tools",
       "item.naidru_packostuff.sky_pickaxe": "Sky Pickaxe",
+      "entity.naidru_packostuff.soul_eater": "Soul Eater",
+      "item.naidru_packostuff.granny_smith_apple": "Granny Smith Apple",
       "item.naidru_packostuff.dark_oak_armorboots": "Dark Oak Boots",
       "block.naidru_packostuff.sky_ore_block": "Block of Sky",
       "advancements.stone_lands.descr": "Discover the Stone Lands",

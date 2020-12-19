@@ -128,7 +128,8 @@ public class AbyssdimensionDimension extends NaidruPackostuffModElements.ModElem
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("naidru_packostuff:abyssbiome")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("naidru_packostuff:abyssbiome")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("naidru_packostuff:abyss_plains")),};
 	}
 
 	@Override
