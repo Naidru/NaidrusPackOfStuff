@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "spruce_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:CTabArmor"
     },
     "armorTextureFile": "spruce",
     "helmetName": "Spruce Helmet",
@@ -32,12 +32,12 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 2,
-    "damageValueHelmet": 0,
-    "damageValueBody": 1,
-    "damageValueLeggings": 1,
-    "damageValueBoots": 0,
-    "enchantability": 1,
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 3,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 5,
     "toughness": 0.0,
     "equipSound": {
       "value": ""

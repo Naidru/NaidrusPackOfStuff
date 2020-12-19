@@ -12,9 +12,9 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Abyssdimension Portal Igniter",
+    "igniterName": "Abyss Portal Igniter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "texture": "abyssportaligniter",
     "portalTexture": "abyssgrasstop",
@@ -42,6 +42,12 @@
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "AbyssdimensionPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "AbyssdimensionPlayerLeavesDimension"
+    }
   }
 }

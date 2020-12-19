@@ -5,9 +5,9 @@
     "renderType": 0,
     "texture": "abyss_gem",
     "customModelName": "Normal",
-    "name": "Abyss",
+    "name": "Abyss Gem",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CTabItems"
     },
     "stackSize": 64,
     "enchantability": 0,

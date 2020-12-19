@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Tools",
+    "icon": {
+      "value": "CUSTOM:SkyPickaxe"
+    },
+    "showSearch": true
+  }
+}

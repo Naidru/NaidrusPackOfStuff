@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "acacia_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:CTabArmor"
     },
     "armorTextureFile": "acacia",
     "helmetName": "Acacia Helmet",

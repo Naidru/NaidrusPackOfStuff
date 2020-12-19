@@ -8,7 +8,7 @@
     "name": "Emerald Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Spade",
     "harvestLevel": 10,

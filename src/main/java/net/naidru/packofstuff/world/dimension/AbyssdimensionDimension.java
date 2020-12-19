@@ -3,6 +3,8 @@ package net.naidru.packofstuff.world.dimension;
 
 import org.jline.terminal.Size;
 
+import net.naidru.packofstuff.procedures.AbyssdimensionPlayerLeavesDimensionProcedure;
+import net.naidru.packofstuff.procedures.AbyssdimensionPlayerEntersDimensionProcedure;
 import net.naidru.packofstuff.item.AbyssdimensionItem;
 import net.naidru.packofstuff.block.AbyssOreBlockBlock;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
@@ -15,6 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.RegisterDimensionsEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.ModDimension;
 import net.minecraftforge.common.MinecraftForge;
@@ -713,7 +716,30 @@ public class AbyssdimensionDimension extends NaidruPackostuffModElements.ModElem
 			return (float) (d0 * 2.0D + d1) / 3.0F;
 		}
 	}
-
+	@SubscribeEvent
+	public void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
+		Entity entity = event.getPlayer();
+		World world = entity.world;
+		int x = (int) entity.getPosX();
+		int y = (int) entity.getPosY();
+		int z = (int) entity.getPosZ();
+		if (event.getFrom() == type) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
+				AbyssdimensionPlayerLeavesDimensionProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (event.getTo() == type) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
+				AbyssdimensionPlayerEntersDimensionProcedure.executeProcedure($_dependencies);
+			}
+		}
+	}
 	public static class ChunkProviderModded extends OverworldChunkGenerator {
 		private static final int SEALEVEL = 63;
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {

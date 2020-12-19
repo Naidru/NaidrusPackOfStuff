@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "naidru_packostuff:abyssgrass"
+    },
+    "title": {
+      "translate": "advancements.the_abyss_advancment.title"
+    },
+    "description": {
+      "translate": "advancements.the_abyss_advancment.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_abyss_advancment": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "naidru_packostuff:abyssdimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

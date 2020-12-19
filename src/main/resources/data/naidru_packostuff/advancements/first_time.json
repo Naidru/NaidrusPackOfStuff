@@ -17,10 +17,7 @@
   },
   "criteria": {
     "first_time": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "minecraft:overworld"
-      }
+      "trigger": "minecraft:tick"
     }
   },
   "rewards": {

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "advancements.stone_lands.title"
+    },
+    "description": {
+      "translate": "advancements.stone_lands.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_lands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "naidru_packostuff:stoneland"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "naidru_packostuff:first_time"
+}

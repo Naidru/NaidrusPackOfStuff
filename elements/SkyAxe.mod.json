@@ -8,14 +8,14 @@
     "name": "Sky Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Axe",
     "harvestLevel": 12,
     "efficiency": 18.0,
     "attackSpeed": 1.0,
     "enchantability": 84,
-    "damageVsEntity": 12.0,
+    "damageVsEntity": 36.0,
     "usageCount": 3072,
     "blocksAffected": [],
     "hasGlow": false,

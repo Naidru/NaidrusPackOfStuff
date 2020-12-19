@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "naidru_packostuff:abyss_gem"
+    },
+    "title": {
+      "translate": "advancements.leave_abyss_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.leave_abyss_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leave_abyss_advancement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "naidru_packostuff:abyssdimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "naidru_packostuff:the_abyss_advancment"
+}

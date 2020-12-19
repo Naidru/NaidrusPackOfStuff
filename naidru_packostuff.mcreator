@@ -295,7 +295,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "abyss_armor"
+      "registry_name": "abyss_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "AbyssArmorHelmetRecipe",
@@ -340,7 +346,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "stone_armor"
+      "registry_name": "stone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "StoneArmorHelmetRecipe",
@@ -385,7 +397,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oak_armor"
+      "registry_name": "oak_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "OakArmorHelmetRecipe",
@@ -475,7 +493,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "birch_armor"
+      "registry_name": "birch_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "BirchArmorHelmetRecipe",
@@ -520,7 +544,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "jungle_armor"
+      "registry_name": "jungle_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "JungleArmorHelmetRecipe",
@@ -565,7 +595,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "acacia_armor"
+      "registry_name": "acacia_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "AcaciaArmorHelmetRecipe",
@@ -805,7 +841,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "saphire_armor"
+      "registry_name": "saphire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "SaphireArmorHelmetRecipe",
@@ -994,7 +1036,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ruby_armor"
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "RubyArmorHelmetRecipe",
@@ -1129,7 +1177,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_armor"
+      "registry_name": "emerald_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "EmeraldArmorHelmetRecipe",
@@ -1318,7 +1372,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "topaz_armor"
+      "registry_name": "topaz_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "TopazArmorHelmetRecipe",
@@ -1507,7 +1567,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sky_armor"
+      "registry_name": "sky_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "SkyArmorHelmetRecipe",
@@ -1601,6 +1667,90 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "first_time"
+    },
+    {
+      "name": "Abyssdungeon",
+      "type": "structure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abyssdungeon"
+    },
+    {
+      "name": "CTabBlocks",
+      "type": "tab",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_tab_blocks"
+    },
+    {
+      "name": "CTabItems",
+      "type": "tab",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_tab_items"
+    },
+    {
+      "name": "CTabTools",
+      "type": "tab",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_tab_tools"
+    },
+    {
+      "name": "StoneLands",
+      "type": "achievement",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_lands"
+    },
+    {
+      "name": "TheAbyssAdvancment",
+      "type": "achievement",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_abyss_advancment"
+    },
+    {
+      "name": "LeaveAbyssAdvancement",
+      "type": "achievement",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leave_abyss_advancement"
+    },
+    {
+      "name": "AbyssdimensionPlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abyssdimension_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1622,7 +1772,10 @@
       "item.naidru_packostuff.hardhatlegs": "Hardhat Leggings",
       "item.naidru_packostuff.jungle_armorlegs": "Jungle Leggings",
       "item.naidru_packostuff.topaz_pickaxe": "Topaz Pickaxe",
+      "itemGroup.tabc_tab_blocks": "NPOS - Blocks",
       "item.naidru_packostuff.emerald_armorlegs": "Emerald Leggings",
+      "advancements.leave_abyss_advancement.descr": "Left the abyss through the portal.",
+      "advancements.the_abyss_advancment.title": "The world under bedrock...",
       "item.naidru_packostuff.topaz_axe": "Topaz Axe",
       "item.naidru_packostuff.sky_armorhelmet": "Sky Helmet",
       "item.naidru_packostuff.sky_axe": "Sky Axe",
@@ -1637,16 +1790,17 @@
       "item.naidru_packostuff.oak_armorhelmet": "Oak Helmet",
       "item.naidru_packostuff.saphire_sword": "Saphire Sword",
       "item.naidru_packostuff.oak_armorboots": "Oak Boots",
-      "item.naidru_packostuff.hardhathelmet": "Hardhat Helmet",
+      "item.naidru_packostuff.hardhathelmet": "Hardhat",
       "itemGroup.tabc_tab_cosmetic": "NPOS - Cosmetics",
       "block.naidru_packostuff.saphire_ore": "Saphire Ore",
       "item.naidru_packostuff.ruby_hoe": "Ruby Hoe",
-      "item.naidru_packostuff.abyss_gem": "Abyss",
+      "item.naidru_packostuff.abyss_gem": "Abyss Gem",
       "item.naidru_packostuff.naidru_skinhelmet": "Naidru Skin Helmet",
       "item.naidru_packostuff.hardhatboots": "Hardhat Boots",
+      "itemGroup.tabc_tab_items": "NPOS - Items",
       "item.naidru_packostuff.spruce_armorhelmet": "Spruce Helmet",
       "item.naidru_packostuff.topaz_armorhelmet": "Topaz Helmet",
-      "item.naidru_packostuff.abyssdimension": "Abyssdimension Portal Igniter",
+      "item.naidru_packostuff.abyssdimension": "Abyss Portal Igniter",
       "item.naidru_packostuff.oak_armorlegs": "Oak Leggings",
       "item.naidru_packostuff.spruce_armorlegs": "Spruce Leggings",
       "itemGroup.tabc_tab_armor": "NPOS - Armour",
@@ -1657,6 +1811,7 @@
       "item.naidru_packostuff.emerald_hoe": "Emerald Hoe",
       "item.naidru_packostuff.topaz_armorboots": "Topaz Boots",
       "item.naidru_packostuff.jungle_armorboots": "Jungle Boots",
+      "advancements.leave_abyss_advancement.title": "Survived in one piece.",
       "item.naidru_packostuff.emerald_sword": "Emerald Sword",
       "item.naidru_packostuff.ruby_sword": "Ruby Sword",
       "item.naidru_packostuff.topaz_shovel": "Topaz Shovel",
@@ -1671,6 +1826,7 @@
       "item.naidru_packostuff.dark_oak_armorhelmet": "Dark Oak Helmet",
       "block.naidru_packostuff.topaz_ore": "Topaz Ore",
       "item.naidru_packostuff.saphire_shovel": "Saphire Shovel",
+      "advancements.the_abyss_advancment.descr": "Enter the abyss",
       "block.naidru_packostuff.abyss_log": "Abyss Log",
       "item.naidru_packostuff.jungle_armorhelmet": "Jungle Helmet",
       "item.naidru_packostuff.stone_armorhelmet": "Stone Helmet",
@@ -1693,11 +1849,13 @@
       "item.naidru_packostuff.emerald_axe": "Emerald Axe",
       "item.naidru_packostuff.saphire_armorbody": "Saphire Chestplate",
       "item.naidru_packostuff.topaz_sword": "Topaz Sword",
+      "itemGroup.tabc_tab_tools": "NPOS - Tools",
       "item.naidru_packostuff.sky_pickaxe": "Sky Pickaxe",
       "item.naidru_packostuff.dark_oak_armorboots": "Dark Oak Boots",
       "block.naidru_packostuff.sky_ore_block": "Block of Sky",
+      "advancements.stone_lands.descr": "Discover the Stone Lands",
       "item.naidru_packostuff.saphire_armorboots": "Saphire Boots",
-      "block.naidru_packostuff.abyssleaves": "Abyssleaves",
+      "block.naidru_packostuff.abyssleaves": "Abyss Leaves",
       "item.naidru_packostuff.acacia_armorboots": "Acacia Boots",
       "item.naidru_packostuff.abyss_shovel": "Abyss Shovel",
       "item.naidru_packostuff.spruce_armorbody": "Spruce Chestplate",
@@ -1710,6 +1868,7 @@
       "block.naidru_packostuff.sky_ore": "Sky Ore",
       "item.naidru_packostuff.hardhatbody": "Hardhat Body",
       "item.naidru_packostuff.saphire_gem": "Saphire",
+      "advancements.stone_lands.title": "The land of stone",
       "item.naidru_packostuff.oak_armorbody": "Oak Chestplate",
       "item.naidru_packostuff.abyss_armorboots": "Abyss Boots",
       "item.naidru_packostuff.ruby_armorlegs": "Ruby Leggings",

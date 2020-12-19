@@ -8,7 +8,7 @@
     "name": "Sky Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Spade",
     "harvestLevel": 12,

@@ -8,7 +8,7 @@
     "name": "Emerald Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 10,

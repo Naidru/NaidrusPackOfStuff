@@ -8,7 +8,7 @@
     "name": "Abyss Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Sword",
     "harvestLevel": 8,

@@ -1,13 +1,13 @@
 
 package net.naidru.packofstuff.item;
 
+import net.naidru.packofstuff.itemgroup.CTabToolsItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -45,7 +45,7 @@ public class TopazSwordItem extends NaidruPackostuffModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(CTabToolsItemGroup.tab)) {
 		}.setRegistryName("topaz_sword"));
 	}
 }

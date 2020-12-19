@@ -1,7 +1,7 @@
 
 package net.naidru.packofstuff.block;
 
-import net.naidru.packofstuff.itemgroup.CTabArmorItemGroup;
+import net.naidru.packofstuff.itemgroup.CTabBlocksItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -29,7 +29,7 @@ public class AbyssleavesBlock extends NaidruPackostuffModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CTabArmorItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

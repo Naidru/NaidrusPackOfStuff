@@ -1,12 +1,12 @@
 
 package net.naidru.packofstuff.item;
 
+import net.naidru.packofstuff.itemgroup.CTabItemsItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
@@ -24,7 +24,7 @@ public class TopazGemItem extends NaidruPackostuffModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(CTabItemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("topaz_gem");
 		}
 

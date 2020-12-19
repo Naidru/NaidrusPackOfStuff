@@ -8,7 +8,7 @@
     "name": "Sky Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 12,

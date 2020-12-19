@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "ruby_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:CTabArmor"
     },
     "armorTextureFile": "ruby",
     "helmetName": "Ruby Helmet",
