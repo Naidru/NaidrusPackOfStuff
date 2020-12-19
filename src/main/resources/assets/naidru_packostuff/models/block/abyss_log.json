@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "naidru_packostuff:blocks/abysslogtop",
+    "up": "naidru_packostuff:blocks/abysslogtop",
+    "north": "naidru_packostuff:blocks/abysslogside",
+    "east": "naidru_packostuff:blocks/abysslogside",
+    "south": "naidru_packostuff:blocks/abysslogside",
+    "west": "naidru_packostuff:blocks/abysslogside",
+    "particle": "naidru_packostuff:blocks/abysslogtop"
+  }
+}

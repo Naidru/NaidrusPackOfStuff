@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Cosmetics",
+    "icon": {
+      "value": "Blocks.SKULL#3"
+    },
+    "showSearch": true
+  }
+}

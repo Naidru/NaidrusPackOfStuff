@@ -1,0 +1,64 @@
+{
+  "_fv": 8,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Big trees",
+    "minHeight": 104,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.STONE#0"
+    },
+    "treeStem": {
+      "value": "Blocks.STONE#0"
+    },
+    "treeBranch": {
+      "value": "Blocks.STONE#0"
+    },
+    "treeFruits": {
+      "value": "Blocks.STONE#1"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 1.0,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "DESERT",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": []
+  }
+}
