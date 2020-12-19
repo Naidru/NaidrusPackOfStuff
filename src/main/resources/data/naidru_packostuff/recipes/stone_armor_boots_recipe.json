@@ -1,0 +1,26 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "2": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:stone_armorboots",
+    "count": 1
+  }
+}

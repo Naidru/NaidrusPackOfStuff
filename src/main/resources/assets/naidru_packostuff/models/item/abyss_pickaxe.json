@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "naidru_packostuff:items/abyss_pickaxe"
+  }
+}

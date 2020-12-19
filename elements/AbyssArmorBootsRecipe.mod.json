@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AbyssGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AbyssGem"
+      },
+      {
+        "value": "CUSTOM:AbyssGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AbyssGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AbyssArmor.boots"
+    },
+    "name": "abyss_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

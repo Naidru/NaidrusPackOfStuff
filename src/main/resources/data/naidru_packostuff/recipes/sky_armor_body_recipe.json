@@ -1,0 +1,39 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "2": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "3": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "4": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "5": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "6": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "7": {
+      "item": "naidru_packostuff:sky_ingot"
+    },
+    "8": {
+      "item": "naidru_packostuff:sky_ingot"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:sky_armorbody",
+    "count": 1
+  }
+}

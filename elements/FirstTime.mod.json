@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Welcome!",
+    "achievementDescription": "Loaded the world with the Pack of Stuff mod.",
+    "achievementIcon": {
+      "value": "CUSTOM:SkyPickaxe"
+    },
+    "background": "disclaimer.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "goal",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"25\" y=\"50\"><field name=\"dimension\">Surface</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

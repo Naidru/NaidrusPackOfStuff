@@ -1,0 +1,29 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "naidru_packostuff:abyss_gem"
+    },
+    "1": {
+      "item": "naidru_packostuff:abyss_gem"
+    },
+    "2": {
+      "item": "naidru_packostuff:abyss_gem"
+    },
+    "3": {
+      "item": "naidru_packostuff:abyss_gem"
+    },
+    "5": {
+      "item": "naidru_packostuff:abyss_gem"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:abyss_armorhelmet",
+    "count": 1
+  }
+}

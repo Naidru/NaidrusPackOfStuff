@@ -1,0 +1,36 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "1": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "2": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "3": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "5": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "6": {
+      "item": "naidru_packostuff:topaz_gem"
+    },
+    "8": {
+      "item": "naidru_packostuff:topaz_gem"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:topaz_armorlegs",
+    "count": 1
+  }
+}

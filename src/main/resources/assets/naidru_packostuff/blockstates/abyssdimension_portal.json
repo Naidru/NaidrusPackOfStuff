@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "naidru_packostuff:block/abyssdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "naidru_packostuff:block/abyssdimension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 418,
+    "height": 359,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "DISCLAIMER",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "DISCLAIMER",
+          "x": 379,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You are currently playing an early",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "You are currently playing an early",
+          "x": 221,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "development build of this mod, things are ",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "development build of this mod, things are ",
+          "x": 220,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "subject to change and may break certain ",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "subject to change and may break certain ",
+          "x": 219,
+          "y": 167
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "things in your world as items/blocks are",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "things in your world as items/blocks are",
+          "x": 218,
+          "y": 193
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "constantly being added and removed. It is",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "constantly being added and removed. It is",
+          "x": 220,
+          "y": 219
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recommended to not use this mod for your ",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "recommended to not use this mod for your ",
+          "x": 220,
+          "y": 243
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "main survival world currently and should",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "main survival world currently and should",
+          "x": 220,
+          "y": 265
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " wait for the stable release to come out.",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": " wait for the stable release to come out.",
+          "x": 219,
+          "y": 291
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " If you find any glitches or bugs please ",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": " If you find any glitches or bugs please ",
+          "x": 220,
+          "y": 315
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "make a issue report on our GitHub page!",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "make a issue report on our GitHub page!",
+          "x": 220,
+          "y": 334
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "I Understand!",
+          "width": 260,
+          "height": 40,
+          "name": "I Understand!",
+          "x": 305,
+          "y": 367
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "name": "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+          "x": 220,
+          "y": 85
+        }
+      }
+    ]
+  }
+}

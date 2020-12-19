@@ -1,0 +1,26 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_planks"
+    },
+    "2": {
+      "item": "minecraft:acacia_planks"
+    },
+    "3": {
+      "item": "minecraft:acacia_planks"
+    },
+    "5": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:acacia_armorboots",
+    "count": 1
+  }
+}

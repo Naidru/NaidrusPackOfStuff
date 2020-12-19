@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "naidru_packostuff:blocks/saphire_ore",
+    "particle": "naidru_packostuff:blocks/saphire_ore"
+  }
+}

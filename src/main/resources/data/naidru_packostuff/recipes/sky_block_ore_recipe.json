@@ -1,0 +1,13 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naidru_packostuff:sky_ore_block"
+    }
+  ],
+  "result": {
+    "item": "naidru_packostuff:sky_ingot",
+    "count": 9
+  }
+}

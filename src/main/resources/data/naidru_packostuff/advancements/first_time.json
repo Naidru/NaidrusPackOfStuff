@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "naidru_packostuff:textures/disclaimer.png",
+    "icon": {
+      "item": "naidru_packostuff:sky_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.first_time.title"
+    },
+    "description": {
+      "translate": "advancements.first_time.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_time": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}
