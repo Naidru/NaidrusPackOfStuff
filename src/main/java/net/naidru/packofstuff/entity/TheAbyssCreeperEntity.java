@@ -58,7 +58,7 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(56).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(20f, 40f))
+				.setTrackingRange(56).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.7f))
 						.build("the_abyss_creeper").setRegistryName("the_abyss_creeper");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -16309756, -10747904, new Item.Properties().group(ItemGroup.MISC))
