@@ -1935,8 +1935,9 @@
   "workspaceSettings": {
     "modid": "naidru_packostuff",
     "modName": "Naidru\u0027s Pack of Stuff",
-    "version": "1.0.0",
-    "author": "User, MCreator",
+    "version": "Alpha 1.0.0",
+    "description": "A Pack of Random Items designed by people, created by Naidru.",
+    "author": "Naidru",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -1945,6 +1946,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Special Thanks to all the people that helped with ideas!",
     "modElementsPackage": "net.naidru.packofstuff",
     "lockBaseModFiles": false
   },

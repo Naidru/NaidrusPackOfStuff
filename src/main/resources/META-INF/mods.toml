@@ -3,11 +3,14 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="naidru_packostuff"
-version="1.0.0"
+version="Alpha 1.0.0"
 displayName="Naidru's Pack of Stuff"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Special Thanks to all the people that helped with ideas!"
 displayURL="https://mcreator.net"
-authors="User, MCreator"
+authors="Naidru"
+description='''
+A Pack of Random Items designed by people, created by Naidru.
+'''
 
 [[dependencies.naidru_packostuff]]
     modId="minecraft"
