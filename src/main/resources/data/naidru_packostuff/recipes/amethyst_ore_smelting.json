@@ -1,0 +1,12 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:smelting",
+  "experience": 2.73,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "naidru_packostuff:amethyst_ore"
+  },
+  "result": {
+    "item": "naidru_packostuff:amethyst_gem"
+  }
+}

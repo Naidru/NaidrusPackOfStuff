@@ -1,0 +1,16 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:cheese",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@
 package net.naidru.packofstuff.block;
 
 import net.naidru.packofstuff.itemgroup.CTabArmorItemGroup;
+import net.naidru.packofstuff.item.TungstenIngotItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -48,8 +49,8 @@ public class TungstenOreBlock extends NaidruPackostuffModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(8.399999999999999f, 11.394530347449106f)
-					.lightValue(0).harvestLevel(6).harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(8.4f, 11.394530347449107f).lightValue(0)
+					.harvestLevel(6).harvestTool(ToolType.PICKAXE));
 			setRegistryName("tungsten_ore");
 		}
 

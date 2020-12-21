@@ -22,8 +22,8 @@
     "Mz": 1.0,
     "name": "Tungsten Ore",
     "specialInfo": [],
-    "hardness": 8.399999999999999,
-    "resistance": 11.394530347449106,
+    "hardness": 8.4,
+    "resistance": 11.394530347449107,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:CTabArmor"

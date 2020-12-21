@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "naidru_packostuff:blocks/abyss_flower",
+    "particle": "naidru_packostuff:blocks/abyss_flower"
+  }
+}

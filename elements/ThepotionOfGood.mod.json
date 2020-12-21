@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "Thepotion Of Good",
+    "effectName": "The potion Of Good",
+    "icon": "thepotionofgoodicon.png",
+    "color": {
+      "value": -16711917,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "ThepotionOfGoodPotionStartedapplied"
+    }
+  }
+}

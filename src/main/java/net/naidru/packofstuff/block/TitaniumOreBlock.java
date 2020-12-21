@@ -2,6 +2,7 @@
 package net.naidru.packofstuff.block;
 
 import net.naidru.packofstuff.itemgroup.CTabArmorItemGroup;
+import net.naidru.packofstuff.item.TitaniumIngotItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;

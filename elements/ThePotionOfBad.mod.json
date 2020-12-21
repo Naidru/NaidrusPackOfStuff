@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "The Potion Of Bad",
+    "effectName": "The Potion Of Bad",
+    "icon": "potionofbadicon.png",
+    "color": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "ThePotionOfBadPotionStartedapplied"
+    }
+  }
+}

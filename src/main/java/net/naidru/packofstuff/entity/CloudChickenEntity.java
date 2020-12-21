@@ -63,7 +63,7 @@ public class CloudChickenEntity extends NaidruPackostuffModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 4, 4, 4));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 8, 8, 8));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				AnimalEntity::canAnimalSpawn);

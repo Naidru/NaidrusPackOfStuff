@@ -1,0 +1,30 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "swordoftheskything",
+    "customModelName": "Normal",
+    "name": "Sword Of The Sky Thing",
+    "specialInfo": [
+      "HOLY YOU GOT THE SWORD OF THE SKY THING!? !? !? !?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CTabTools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 6.8,
+    "usageCount": 2999,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ]
+  }
+}

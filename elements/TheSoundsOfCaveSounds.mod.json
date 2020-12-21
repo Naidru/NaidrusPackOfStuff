@@ -1,0 +1,17 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "thesoundsofcavesounds",
+    "name": "The Sounds Of Cave Sounds",
+    "description": "The Sound Of Cave Sounds Will Play In You're Ears",
+    "creativeTab": {
+      "value": "CUSTOM:CTabItems"
+    },
+    "music": {
+      "value": "ambient.cave"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "naidru_packostuff:amethyst_gem"
+    },
+    "1": {
+      "item": "naidru_packostuff:amethyst_gem"
+    },
+    "2": {
+      "item": "naidru_packostuff:amethyst_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "naidru_packostuff:amethyst_pickaxe",
+    "count": 1
+  }
+}
