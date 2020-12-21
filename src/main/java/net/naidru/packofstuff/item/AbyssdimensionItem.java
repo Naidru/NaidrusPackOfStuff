@@ -2,7 +2,7 @@
 package net.naidru.packofstuff.item;
 
 import net.naidru.packofstuff.world.dimension.AbyssdimensionDimension;
-import net.naidru.packofstuff.itemgroup.CTabToolsItemGroup;
+import net.naidru.packofstuff.itemgroup.CTabItemsItemGroup;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -18,7 +18,7 @@ public class AbyssdimensionItem extends Item {
 	@ObjectHolder("naidru_packostuff:abyssdimension")
 	public static final Item block = null;
 	public AbyssdimensionItem() {
-		super(new Item.Properties().group(CTabToolsItemGroup.tab).maxDamage(64));
+		super(new Item.Properties().group(CTabItemsItemGroup.tab).maxDamage(64));
 	}
 
 	@Override

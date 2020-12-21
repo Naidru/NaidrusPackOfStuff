@@ -1,6 +1,7 @@
 
 package net.naidru.packofstuff.entity;
 
+import net.naidru.packofstuff.itemgroup.CTabMobsItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,7 +21,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.monster.SpiderEntity;
@@ -55,8 +55,8 @@ public class SoulEaterEntity extends NaidruPackostuffModElements.ModElement {
 				.setTrackingRange(6).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(1.4f, 0.9f))
 						.build("soul_eater").setRegistryName("soul_eater");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -16777216, -13434880, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("soul_eater"));
+		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -13434880, new Item.Properties().group(CTabMobsItemGroup.tab))
+				.setRegistryName("soul_eater"));
 	}
 
 	@Override

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "naidru_packostuff:block/the_sky_portal_ew"
+    },
+    "axis=x": {
+      "model": "naidru_packostuff:block/the_sky_portal_ns"
+    }
+  }
+}

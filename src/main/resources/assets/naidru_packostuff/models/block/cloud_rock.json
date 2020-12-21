@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "naidru_packostuff:blocks/cloud_rock",
+    "up": "naidru_packostuff:blocks/cloud_rock",
+    "north": "naidru_packostuff:blocks/cloud_rock",
+    "east": "naidru_packostuff:blocks/cloud_rock",
+    "south": "naidru_packostuff:blocks/cloud_rock",
+    "west": "naidru_packostuff:blocks/cloud_rock",
+    "particle": "naidru_packostuff:blocks/cloud_rock"
+  }
+}

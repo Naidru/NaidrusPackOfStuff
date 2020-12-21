@@ -1,6 +1,7 @@
 
 package net.naidru.packofstuff.entity;
 
+import net.naidru.packofstuff.itemgroup.CTabMobsItemGroup;
 import net.naidru.packofstuff.item.HeartOfTheAbyssCreeperItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
@@ -19,13 +20,10 @@ import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.world.BossInfo;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
-import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -36,7 +34,6 @@ import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
-import net.minecraft.entity.ai.controller.FlyingMovementController;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
@@ -45,7 +42,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.CreeperModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.block.BlockState;
 
 @NaidruPackostuffModElements.ModElement.Tag
 public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElement {
@@ -61,13 +57,20 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 				.setTrackingRange(56).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.7f))
 						.build("the_abyss_creeper").setRegistryName("the_abyss_creeper");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -16309756, -10747904, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -16309756, -10747904, new Item.Properties().group(CTabMobsItemGroup.tab))
 				.setRegistryName("the_abyss_creeper"));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("naidru_packostuff:abyss_plains")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("naidru_packostuff:abyssbiome")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 1, 4, 4));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
@@ -93,8 +96,6 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 			super(type, world);
 			experienceValue = 30;
 			setNoAI(false);
-			this.moveController = new FlyingMovementController(this, 10, true);
-			this.navigator = new FlyingPathNavigator(this, this.world);
 		}
 
 		@Override
@@ -138,11 +139,6 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 		}
 
 		@Override
-		public boolean onLivingFall(float l, float d) {
-			return false;
-		}
-
-		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;
@@ -169,9 +165,6 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(16);
-			if (this.getAttribute(SharedMonsterAttributes.FLYING_SPEED) == null)
-				this.getAttributes().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
-			this.getAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.3);
 		}
 
 		@Override
@@ -195,20 +188,6 @@ public class TheAbyssCreeperEntity extends NaidruPackostuffModElements.ModElemen
 		public void updateAITasks() {
 			super.updateAITasks();
 			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
-		}
-
-		@Override
-		protected void updateFallState(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
-		}
-
-		@Override
-		public void setNoGravity(boolean ignored) {
-			super.setNoGravity(true);
-		}
-
-		public void livingTick() {
-			super.livingTick();
-			this.setNoGravity(true);
 		}
 	}
 }

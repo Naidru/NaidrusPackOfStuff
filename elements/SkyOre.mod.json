@@ -80,7 +80,7 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:TheSky"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

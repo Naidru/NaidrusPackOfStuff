@@ -1,7 +1,7 @@
 
 package net.naidru.packofstuff.item;
 
-import net.naidru.packofstuff.itemgroup.CTabItemsItemGroup;
+import net.naidru.packofstuff.itemgroup.CTabToolsItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -45,7 +45,7 @@ public class AbyssShovelItem extends NaidruPackostuffModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(CTabItemsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(CTabToolsItemGroup.tab)) {
 		}.setRegistryName("abyss_shovel"));
 	}
 }

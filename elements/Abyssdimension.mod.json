@@ -14,7 +14,7 @@
     },
     "igniterName": "Abyss Portal Igniter",
     "igniterTab": {
-      "value": "CUSTOM:CTabTools"
+      "value": "CUSTOM:CTabItems"
     },
     "texture": "abyssportaligniter",
     "portalTexture": "abyssgrasstop",

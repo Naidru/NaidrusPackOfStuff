@@ -51,13 +51,13 @@ public class AbyssdungeonStructure extends NaidruPackostuffModElements.ModElemen
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 10000) {
+				if ((random.nextInt(1000000) + 1) <= 500) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16) + 8;
 						int k = ck + random.nextInt(16) + 8;
 						int j = iworld.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-						j -= 1;
+						j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 						Template template = ((ServerWorld) iworld.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("naidru_packostuff", "abyss_dungeon"));
 						if (template == null)
@@ -75,7 +75,7 @@ public class AbyssdungeonStructure extends NaidruPackostuffModElements.ModElemen
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
+			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}
 	}

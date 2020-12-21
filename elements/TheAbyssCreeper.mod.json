@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CTabMobs"
     },
     "isBoss": true,
     "bossBarColor": "RED",
@@ -53,7 +53,7 @@
     "health": 244,
     "xpAmount": 30,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -102,7 +102,14 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AbyssPlains"
+      },
+      {
+        "value": "CUSTOM:Abyssbiome"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

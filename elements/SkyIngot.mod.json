@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "sky_ingot",
     "customModelName": "Normal",
-    "name": "Sky",
+    "name": "Sky Ingot",
     "creativeTab": {
       "value": "CUSTOM:CTabItems"
     },

@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Mobs",
+    "icon": {
+      "value": "Items.SPAWN_EGG#56"
+    },
+    "showSearch": true
+  }
+}

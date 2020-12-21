@@ -1,6 +1,7 @@
 
 package net.naidru.packofstuff.block;
 
+import net.naidru.packofstuff.world.dimension.TheSkyDimension;
 import net.naidru.packofstuff.itemgroup.CTabBlocksItemGroup;
 import net.naidru.packofstuff.item.SkyIngotItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
@@ -70,7 +71,7 @@ public class SkyOreBlock extends NaidruPackostuffModElements.ModElement {
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.OVERWORLD)
+					if (dimensionType == TheSkyDimension.type)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:CloudRock"
+    },
+    "portalParticles": {
+      "value": "WATER_BUBBLE"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "The Sky Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:CTabItems"
+    },
+    "texture": "cloudigniter",
+    "portalTexture": "tin_ore_block",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TheCloudIands"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:CloudBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:CloudBlock"
+    },
+    "airColor": {
+      "value": -3355444,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

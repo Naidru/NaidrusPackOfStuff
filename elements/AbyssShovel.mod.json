@@ -8,7 +8,7 @@
     "name": "Abyss Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:CTabItems"
+      "value": "CUSTOM:CTabTools"
     },
     "toolType": "Spade",
     "harvestLevel": 8,

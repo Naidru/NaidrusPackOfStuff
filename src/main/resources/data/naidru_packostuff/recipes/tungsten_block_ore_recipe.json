@@ -1,0 +1,13 @@
+{
+  "group": "naidru_packostuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naidru_packostuff:tungsten_ore_block"
+    }
+  ],
+  "result": {
+    "item": "naidru_packostuff:tungsten_ingot",
+    "count": 9
+  }
+}
