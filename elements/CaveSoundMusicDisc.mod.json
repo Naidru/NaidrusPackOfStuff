@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "CUSTOM:Cheese"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.COOKED_BEEF"
+        "value": "Blocks.CONCRETE_POWDER#15"
       },
       {
-        "value": "CUSTOM:Cheese"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Items.BREAD"
+        "value": "Blocks.STONE#0"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Burger"
+      "value": "CUSTOM:TheSoundsOfCaveSounds"
     },
-    "name": "burger_recipe",
+    "name": "cave_sound_music_disc",
     "namespace": "mod"
   }
 }

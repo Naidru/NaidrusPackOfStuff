@@ -2,8 +2,8 @@
   "_fv": 8,
   "_type": "potion",
   "definition": {
-    "name": "Thepotion Of Good",
-    "effectName": "The potion Of Good",
+    "name": "Potion of Good",
+    "effectName": "Potion of Good",
     "icon": "thepotionofgoodicon.png",
     "color": {
       "value": -16711917,

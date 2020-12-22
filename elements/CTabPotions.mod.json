@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Potions",
+    "icon": {
+      "value": "Items.SPLASH_POTION"
+    },
+    "showSearch": true
+  }
+}

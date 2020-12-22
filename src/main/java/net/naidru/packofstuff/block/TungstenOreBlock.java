@@ -2,7 +2,6 @@
 package net.naidru.packofstuff.block;
 
 import net.naidru.packofstuff.itemgroup.CTabArmorItemGroup;
-import net.naidru.packofstuff.item.TungstenIngotItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -59,7 +58,7 @@ public class TungstenOreBlock extends NaidruPackostuffModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(TungstenIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override

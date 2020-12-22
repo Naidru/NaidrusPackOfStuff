@@ -2,7 +2,7 @@
 package net.naidru.packofstuff.block;
 
 import net.naidru.packofstuff.world.dimension.AbyssdimensionDimension;
-import net.naidru.packofstuff.itemgroup.CTabItemsItemGroup;
+import net.naidru.packofstuff.itemgroup.CTabBlocksItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -56,7 +56,7 @@ public class AbyssFlowerBlock extends NaidruPackostuffModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new BlockCustomFlower());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CTabItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

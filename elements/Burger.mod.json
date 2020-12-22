@@ -10,7 +10,7 @@
       "The Best Food EVER!!!!!!"
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:CTabFood"
     },
     "stackSize": 64,
     "nutritionalValue": 30,

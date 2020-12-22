@@ -41,7 +41,7 @@ public class SwordOfTheSkyThingItem extends NaidruPackostuffModElements.ModEleme
 			}
 
 			public float getAttackDamage() {
-				return 4.8f;
+				return 68f;
 			}
 
 			public int getHarvestLevel() {

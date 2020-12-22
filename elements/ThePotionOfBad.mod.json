@@ -2,8 +2,8 @@
   "_fv": 8,
   "_type": "potion",
   "definition": {
-    "name": "The Potion Of Bad",
-    "effectName": "The Potion Of Bad",
+    "name": "Potion Of Bad",
+    "effectName": "Potion Of Bad",
     "icon": "potionofbadicon.png",
     "color": {
       "value": -13434829,

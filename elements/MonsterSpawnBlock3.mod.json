@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.MONSTER_EGG#2"
+    },
+    "name": "monster_spawn_block_3",
+    "namespace": "mod"
+  }
+}

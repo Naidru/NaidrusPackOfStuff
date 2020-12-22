@@ -11,7 +11,7 @@
     "name": "Abyss Flower",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:CTabItems"
+      "value": "CUSTOM:CTabBlocks"
     },
     "hardness": 0.0,
     "resistance": 0.0,

@@ -4,9 +4,9 @@
   "definition": {
     "texture": "thesoundsofcavesounds",
     "name": "The Sounds Of Cave Sounds",
-    "description": "The Sound Of Cave Sounds Will Play In You're Ears",
+    "description": "Cave Sound",
     "creativeTab": {
-      "value": "CUSTOM:CTabItems"
+      "value": "CUSTOM:CTabMusicDiscs"
     },
     "music": {
       "value": "ambient.cave"

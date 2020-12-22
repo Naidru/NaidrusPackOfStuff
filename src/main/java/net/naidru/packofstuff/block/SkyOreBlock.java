@@ -3,7 +3,6 @@ package net.naidru.packofstuff.block;
 
 import net.naidru.packofstuff.world.dimension.TheSkyDimension;
 import net.naidru.packofstuff.itemgroup.CTabBlocksItemGroup;
-import net.naidru.packofstuff.item.SkyIngotItem;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -60,7 +59,7 @@ public class SkyOreBlock extends NaidruPackostuffModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(SkyIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override

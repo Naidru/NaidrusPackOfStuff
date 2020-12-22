@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Music Discs",
+    "icon": {
+      "value": "CUSTOM:TheSoundsOfCaveSounds"
+    },
+    "showSearch": true
+  }
+}

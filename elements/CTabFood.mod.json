@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "NPOS - Food",
+    "icon": {
+      "value": "CUSTOM:Burger"
+    },
+    "showSearch": true
+  }
+}

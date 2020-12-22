@@ -30,7 +30,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:SilverIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,

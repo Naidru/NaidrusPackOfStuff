@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 @NaidruPackostuffModElements.ModElement.Tag
 public class CloudCowMeatFoodEatenProcedure extends NaidruPackostuffModElements.ModElement {
 	public CloudCowMeatFoodEatenProcedure(NaidruPackostuffModElements instance) {
-		super(instance, 342);
+		super(instance, 349);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -20,6 +20,8 @@ public class CloudCowMeatFoodEatenProcedure extends NaidruPackostuffModElements.
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 120, (int) 2));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 60, (int) 1));
 	}
 }

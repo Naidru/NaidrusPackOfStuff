@@ -1,7 +1,7 @@
 
 package net.naidru.packofstuff.item;
 
-import net.naidru.packofstuff.itemgroup.CTabItemsItemGroup;
+import net.naidru.packofstuff.itemgroup.CTabMusicDiscsItemGroup;
 import net.naidru.packofstuff.NaidruPackostuffModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -27,7 +27,7 @@ public class TheSoundsOfCaveSoundsItem extends NaidruPackostuffModElements.ModEl
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
-					new Item.Properties().group(CTabItemsItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(CTabMusicDiscsItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("the_sounds_of_cave_sounds");
 		}
 	}
